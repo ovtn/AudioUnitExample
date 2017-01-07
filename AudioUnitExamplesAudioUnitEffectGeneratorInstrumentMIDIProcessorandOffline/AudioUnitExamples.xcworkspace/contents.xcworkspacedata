@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ReadMe.md">
+   </FileRef>
+   <FileRef
+      location = "group:AudioUnitEffectExample/FilterDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioUnitGeneratorExample/AUPinkNoise.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioUnitInstrumentExample/SinSynth.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioUnitOfflineEffectExample/ReverseOfflineUnit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StarterAudioUnitExample/TremoloUnit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioUnitMidiProcessorExample/AUMidiPassThru.xcodeproj">
+   </FileRef>
+</Workspace>

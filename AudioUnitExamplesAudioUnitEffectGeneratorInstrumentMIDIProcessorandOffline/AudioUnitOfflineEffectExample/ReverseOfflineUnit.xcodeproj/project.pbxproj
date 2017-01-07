@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF5267E1C503DA500F7FFCB /* CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5267C1C503DA500F7FFCB /* CAHostTimeBase.cpp */; };
+		2BF5267F1C503DA500F7FFCB /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF5267D1C503DA500F7FFCB /* CAHostTimeBase.h */; };
+		3E12B04A079B84A400CAF683 /* AUBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F5809CAC0176770301AE2950 /* AUBase.h */; };
+		3E12B04C079B84A400CAF683 /* AUInputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F5809CB00176770301AE2950 /* AUInputElement.h */; };
+		3E12B04D079B84A400CAF683 /* AUOutputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F5809CB20176770301AE2950 /* AUOutputElement.h */; };
+		3E12B04E079B84A400CAF683 /* AUScopeElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F5809CB50176770301AE2950 /* AUScopeElement.h */; };
+		3E12B04F079B84A400CAF683 /* ComponentBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F5809CB80176770301AE2950 /* ComponentBase.h */; };
+		3E12B050079B84A400CAF683 /* AUEffectBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F5809CBB0176770301AE2950 /* AUEffectBase.h */; };
+		3E12B051079B84A400CAF683 /* AUBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5809CBF0176770301AE2950 /* AUBuffer.h */; };
+		3E12B052079B84A400CAF683 /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = EC466E9D02C2636A0DCA2268 /* CAStreamBasicDescription.h */; };
+		3E12B053079B84A400CAF683 /* CAAudioChannelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7972CA2304D096C500F1FB05 /* CAAudioChannelLayout.h */; };
+		3E12B054079B84A400CAF683 /* ReverseOfflineUnitVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B6C01504DA443100000102 /* ReverseOfflineUnitVersion.h */; };
+		3E12B056079B84A400CAF683 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CC5907204434F7300A80C0B /* Localizable.strings */; };
+		3E12B058079B84A400CAF683 /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5809CAB0176770301AE2950 /* AUBase.cpp */; };
+		3E12B05A079B84A400CAF683 /* AUInputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5809CAF0176770301AE2950 /* AUInputElement.cpp */; };
+		3E12B05B079B84A400CAF683 /* AUOutputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5809CB10176770301AE2950 /* AUOutputElement.cpp */; };
+		3E12B05C079B84A400CAF683 /* AUScopeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5809CB40176770301AE2950 /* AUScopeElement.cpp */; };
+		3E12B05D079B84A400CAF683 /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5809CB70176770301AE2950 /* ComponentBase.cpp */; };
+		3E12B05E079B84A400CAF683 /* AUEffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5809CBA0176770301AE2950 /* AUEffectBase.cpp */; };
+		3E12B05F079B84A400CAF683 /* AUBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECC36E8902D139760DCA2268 /* AUBuffer.cpp */; };
+		3E12B060079B84A400CAF683 /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7972CA2204D096C500F1FB05 /* CAAudioChannelLayout.cpp */; };
+		3E12B061079B84A400CAF683 /* ReverseOfflineUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B6C01204DA443100000102 /* ReverseOfflineUnit.cpp */; };
+		3E12B062079B84A400CAF683 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F7815064FE52D009C0378 /* CAStreamBasicDescription.cpp */; };
+		3E12B064079B84A400CAF683 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5809CC30176770301AE2950 /* CoreServices.framework */; };
+		3E12B065079B84A400CAF683 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5809CE3017680D901AE2950 /* AudioUnit.framework */; };
+		3EEF8B8F08981417009D9154 /* CAVectorUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EEF8B8908981417009D9154 /* CAVectorUnit.cpp */; };
+		3EEF8B9008981417009D9154 /* CAVectorUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEF8B8A08981417009D9154 /* CAVectorUnit.h */; };
+		3EEF8B9108981417009D9154 /* CAVectorUnitTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EEF8B8B08981417009D9154 /* CAVectorUnitTypes.h */; };
+		A92CAD490870E54B009AC0B7 /* CAThreadSafeList.h in Headers */ = {isa = PBXBuildFile; fileRef = A92CAD470870E54B009AC0B7 /* CAThreadSafeList.h */; };
+		B8E3AF7717DA89FF00677CDD /* AUPlugInDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8E3AF7417DA89FF00677CDD /* AUPlugInDispatch.cpp */; };
+		B8E3AF7917DA89FF00677CDD /* AUPlugInDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E3AF7517DA89FF00677CDD /* AUPlugInDispatch.h */; };
+		DCC58E760D1B4E5900FE1D14 /* AUBaseHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCC58E720D1B4E5900FE1D14 /* AUBaseHelper.cpp */; };
+		DCC58E770D1B4E5900FE1D14 /* AUBaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC58E730D1B4E5900FE1D14 /* AUBaseHelper.h */; };
+		F7F868190E27EAD50038F9D5 /* CABufferList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7F868150E27EAD50038F9D5 /* CABufferList.cpp */; };
+		F7F8681A0E27EAD50038F9D5 /* CABufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F868160E27EAD50038F9D5 /* CABufferList.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BB9A5EB1C65572200B8A7CF /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		2BF5267C1C503DA500F7FFCB /* CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAHostTimeBase.cpp; sourceTree = "<group>"; };
+		2BF5267D1C503DA500F7FFCB /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
+		3E12B068079B84A400CAF683 /* Info-ReverseOfflineUnit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-ReverseOfflineUnit.plist"; sourceTree = "<group>"; };
+		3E12B069079B84A400CAF683 /* Reverse.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reverse.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8F7815064FE52D009C0378 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		3EEF8B8908981417009D9154 /* CAVectorUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAVectorUnit.cpp; sourceTree = "<group>"; };
+		3EEF8B8A08981417009D9154 /* CAVectorUnit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAVectorUnit.h; sourceTree = "<group>"; };
+		3EEF8B8B08981417009D9154 /* CAVectorUnitTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAVectorUnitTypes.h; sourceTree = "<group>"; };
+		4CC5907004434F4400A80C0B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4CF0B68E044CAD9300CA2588 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		4CF0B690044CADA500CA2588 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		7972CA2204D096C500F1FB05 /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
+		7972CA2304D096C500F1FB05 /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioChannelLayout.h; sourceTree = "<group>"; };
+		A92CAD470870E54B009AC0B7 /* CAThreadSafeList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAThreadSafeList.h; sourceTree = "<group>"; };
+		A9B6C01204DA443100000102 /* ReverseOfflineUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ReverseOfflineUnit.cpp; path = OfflineSources/ReverseOfflineUnit.cpp; sourceTree = "<group>"; };
+		A9B6C01304DA443100000102 /* ReverseOfflineUnit.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; name = ReverseOfflineUnit.exp; path = OfflineSources/ReverseOfflineUnit.exp; sourceTree = "<group>"; };
+		A9B6C01504DA443100000102 /* ReverseOfflineUnitVersion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ReverseOfflineUnitVersion.h; path = OfflineSources/ReverseOfflineUnitVersion.h; sourceTree = "<group>"; };
+		B8E3AF7417DA89FF00677CDD /* AUPlugInDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUPlugInDispatch.cpp; sourceTree = "<group>"; };
+		B8E3AF7517DA89FF00677CDD /* AUPlugInDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUPlugInDispatch.h; sourceTree = "<group>"; };
+		DCC58E720D1B4E5900FE1D14 /* AUBaseHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUBaseHelper.cpp; sourceTree = "<group>"; };
+		DCC58E730D1B4E5900FE1D14 /* AUBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUBaseHelper.h; sourceTree = "<group>"; };
+		EC466E9D02C2636A0DCA2268 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		ECC36E8902D139760DCA2268 /* AUBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUBuffer.cpp; sourceTree = "<group>"; };
+		F5809CAB0176770301AE2950 /* AUBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUBase.cpp; sourceTree = "<group>"; };
+		F5809CAC0176770301AE2950 /* AUBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUBase.h; sourceTree = "<group>"; };
+		F5809CAF0176770301AE2950 /* AUInputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUInputElement.cpp; sourceTree = "<group>"; };
+		F5809CB00176770301AE2950 /* AUInputElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUInputElement.h; sourceTree = "<group>"; };
+		F5809CB10176770301AE2950 /* AUOutputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputElement.cpp; sourceTree = "<group>"; };
+		F5809CB20176770301AE2950 /* AUOutputElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUOutputElement.h; sourceTree = "<group>"; };
+		F5809CB40176770301AE2950 /* AUScopeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUScopeElement.cpp; sourceTree = "<group>"; };
+		F5809CB50176770301AE2950 /* AUScopeElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUScopeElement.h; sourceTree = "<group>"; };
+		F5809CB70176770301AE2950 /* ComponentBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ComponentBase.cpp; sourceTree = "<group>"; };
+		F5809CB80176770301AE2950 /* ComponentBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ComponentBase.h; sourceTree = "<group>"; };
+		F5809CBA0176770301AE2950 /* AUEffectBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUEffectBase.cpp; sourceTree = "<group>"; };
+		F5809CBB0176770301AE2950 /* AUEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUEffectBase.h; sourceTree = "<group>"; };
+		F5809CBF0176770301AE2950 /* AUBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUBuffer.h; sourceTree = "<group>"; };
+		F5809CC30176770301AE2950 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		F5809CE3017680D901AE2950 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		F7F868150E27EAD50038F9D5 /* CABufferList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CABufferList.cpp; sourceTree = "<group>"; };
+		F7F868160E27EAD50038F9D5 /* CABufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABufferList.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E12B063079B84A400CAF683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E12B064079B84A400CAF683 /* CoreServices.framework in Frameworks */,
+				3E12B065079B84A400CAF683 /* AudioUnit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* SampleAudioUnits */ = {
+			isa = PBXGroup;
+			children = (
+				2BB9A5EB1C65572200B8A7CF /* ReadMe.md */,
+				F5D19AF9031761B801CA2136 /* Source */,
+				4CF0B6CE044CB2A500CA2588 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = SampleAudioUnits;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F5809CC30176770301AE2950 /* CoreServices.framework */,
+				F5809CE3017680D901AE2950 /* AudioUnit.framework */,
+				4CF0B68E044CAD9300CA2588 /* AudioToolbox.framework */,
+				4CF0B690044CADA500CA2588 /* Cocoa.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			path = /System/Library/Frameworks;
+			sourceTree = "<absolute>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E12B069079B84A400CAF683 /* Reverse.component */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF0B6CE044CB2A500CA2588 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E12B068079B84A400CAF683 /* Info-ReverseOfflineUnit.plist */,
+				4CC5907204434F7300A80C0B /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC466E6D02C2636A0DCA2268 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				F7F868150E27EAD50038F9D5 /* CABufferList.cpp */,
+				F7F868160E27EAD50038F9D5 /* CABufferList.h */,
+				3EEF8B8B08981417009D9154 /* CAVectorUnitTypes.h */,
+				3EEF8B8A08981417009D9154 /* CAVectorUnit.h */,
+				3EEF8B8908981417009D9154 /* CAVectorUnit.cpp */,
+				A92CAD470870E54B009AC0B7 /* CAThreadSafeList.h */,
+				EC466E9D02C2636A0DCA2268 /* CAStreamBasicDescription.h */,
+				3E8F7815064FE52D009C0378 /* CAStreamBasicDescription.cpp */,
+				7972CA2304D096C500F1FB05 /* CAAudioChannelLayout.h */,
+				7972CA2204D096C500F1FB05 /* CAAudioChannelLayout.cpp */,
+				2BF5267C1C503DA500F7FFCB /* CAHostTimeBase.cpp */,
+				2BF5267D1C503DA500F7FFCB /* CAHostTimeBase.h */,
+			);
+			name = PublicUtility;
+			path = ../PublicUtility;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5809CA90176770301AE2950 /* AUPublic */ = {
+			isa = PBXGroup;
+			children = (
+				F5809CAA0176770301AE2950 /* AUBase */,
+				F5809CB90176770301AE2950 /* OtherBases */,
+				F5809CBE0176770301AE2950 /* Utility */,
+			);
+			name = AUPublic;
+			path = ../AUPublic;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5809CAA0176770301AE2950 /* AUBase */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3AF7417DA89FF00677CDD /* AUPlugInDispatch.cpp */,
+				B8E3AF7517DA89FF00677CDD /* AUPlugInDispatch.h */,
+				F5809CAB0176770301AE2950 /* AUBase.cpp */,
+				F5809CAC0176770301AE2950 /* AUBase.h */,
+				F5809CAF0176770301AE2950 /* AUInputElement.cpp */,
+				F5809CB00176770301AE2950 /* AUInputElement.h */,
+				F5809CB10176770301AE2950 /* AUOutputElement.cpp */,
+				F5809CB20176770301AE2950 /* AUOutputElement.h */,
+				F5809CB40176770301AE2950 /* AUScopeElement.cpp */,
+				F5809CB50176770301AE2950 /* AUScopeElement.h */,
+				F5809CB70176770301AE2950 /* ComponentBase.cpp */,
+				F5809CB80176770301AE2950 /* ComponentBase.h */,
+			);
+			path = AUBase;
+			sourceTree = "<group>";
+		};
+		F5809CB90176770301AE2950 /* OtherBases */ = {
+			isa = PBXGroup;
+			children = (
+				F5809CBA0176770301AE2950 /* AUEffectBase.cpp */,
+				F5809CBB0176770301AE2950 /* AUEffectBase.h */,
+			);
+			path = OtherBases;
+			sourceTree = "<group>";
+		};
+		F5809CBE0176770301AE2950 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DCC58E720D1B4E5900FE1D14 /* AUBaseHelper.cpp */,
+				DCC58E730D1B4E5900FE1D14 /* AUBaseHelper.h */,
+				ECC36E8902D139760DCA2268 /* AUBuffer.cpp */,
+				F5809CBF0176770301AE2950 /* AUBuffer.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F5D19AF9031761B801CA2136 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A9B6C01204DA443100000102 /* ReverseOfflineUnit.cpp */,
+				A9B6C01504DA443100000102 /* ReverseOfflineUnitVersion.h */,
+				A9B6C01304DA443100000102 /* ReverseOfflineUnit.exp */,
+				F5809CA90176770301AE2950 /* AUPublic */,
+				EC466E6D02C2636A0DCA2268 /* PublicUtility */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E12B049079B84A400CAF683 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E12B04A079B84A400CAF683 /* AUBase.h in Headers */,
+				B8E3AF7917DA89FF00677CDD /* AUPlugInDispatch.h in Headers */,
+				3E12B04C079B84A400CAF683 /* AUInputElement.h in Headers */,
+				3E12B04D079B84A400CAF683 /* AUOutputElement.h in Headers */,
+				3E12B04E079B84A400CAF683 /* AUScopeElement.h in Headers */,
+				3E12B04F079B84A400CAF683 /* ComponentBase.h in Headers */,
+				3E12B050079B84A400CAF683 /* AUEffectBase.h in Headers */,
+				3E12B051079B84A400CAF683 /* AUBuffer.h in Headers */,
+				3E12B052079B84A400CAF683 /* CAStreamBasicDescription.h in Headers */,
+				2BF5267F1C503DA500F7FFCB /* CAHostTimeBase.h in Headers */,
+				3E12B053079B84A400CAF683 /* CAAudioChannelLayout.h in Headers */,
+				3E12B054079B84A400CAF683 /* ReverseOfflineUnitVersion.h in Headers */,
+				A92CAD490870E54B009AC0B7 /* CAThreadSafeList.h in Headers */,
+				3EEF8B9008981417009D9154 /* CAVectorUnit.h in Headers */,
+				3EEF8B9108981417009D9154 /* CAVectorUnitTypes.h in Headers */,
+				DCC58E770D1B4E5900FE1D14 /* AUBaseHelper.h in Headers */,
+				F7F8681A0E27EAD50038F9D5 /* CABufferList.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E12B048079B84A400CAF683 /* ReverseOfflineUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9509F0C08721A5A00A30951 /* Build configuration list for PBXNativeTarget "ReverseOfflineUnit" */;
+			buildPhases = (
+				3E12B049079B84A400CAF683 /* Headers */,
+				3E12B055079B84A400CAF683 /* Resources */,
+				3E12B057079B84A400CAF683 /* Sources */,
+				3E12B063079B84A400CAF683 /* Frameworks */,
+				3E12B066079B84A400CAF683 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseOfflineUnit;
+			productInstallPath = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+			productName = SampleAudioUnits;
+			productReference = 3E12B069079B84A400CAF683 /* Reverse.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = A9509F1B08721A5A00A30951 /* Build configuration list for PBXProject "ReverseOfflineUnit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* SampleAudioUnits */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E12B048079B84A400CAF683 /* ReverseOfflineUnit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E12B055079B84A400CAF683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E12B056079B84A400CAF683 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		3E12B066079B84A400CAF683 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E12B057079B84A400CAF683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E12B058079B84A400CAF683 /* AUBase.cpp in Sources */,
+				3E12B05A079B84A400CAF683 /* AUInputElement.cpp in Sources */,
+				3E12B05B079B84A400CAF683 /* AUOutputElement.cpp in Sources */,
+				3E12B05C079B84A400CAF683 /* AUScopeElement.cpp in Sources */,
+				3E12B05D079B84A400CAF683 /* ComponentBase.cpp in Sources */,
+				3E12B05E079B84A400CAF683 /* AUEffectBase.cpp in Sources */,
+				3E12B05F079B84A400CAF683 /* AUBuffer.cpp in Sources */,
+				3E12B060079B84A400CAF683 /* CAAudioChannelLayout.cpp in Sources */,
+				3E12B061079B84A400CAF683 /* ReverseOfflineUnit.cpp in Sources */,
+				3E12B062079B84A400CAF683 /* CAStreamBasicDescription.cpp in Sources */,
+				2BF5267E1C503DA500F7FFCB /* CAHostTimeBase.cpp in Sources */,
+				3EEF8B8F08981417009D9154 /* CAVectorUnit.cpp in Sources */,
+				DCC58E760D1B4E5900FE1D14 /* AUBaseHelper.cpp in Sources */,
+				B8E3AF7717DA89FF00677CDD /* AUPlugInDispatch.cpp in Sources */,
+				F7F868190E27EAD50038F9D5 /* CABufferList.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CC5907204434F7300A80C0B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC5907004434F4400A80C0B /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9509F0D08721A5A00A30951 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXPORTED_SYMBOLS_FILE = OfflineSources/ReverseOfflineUnit.exp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "CA_USE_AUDIO_PLUGIN_ONLY=1";
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				INFOPLIST_FILE = "Info-ReverseOfflineUnit.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_CFLAGS = "-DDEBUG=1";
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.audiounit.reverse;
+				PRODUCT_NAME = Reverse;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+			};
+			name = Development;
+		};
+		A9509F0E08721A5A00A30951 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXPORTED_SYMBOLS_FILE = OfflineSources/ReverseOfflineUnit.exp;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "CA_USE_AUDIO_PLUGIN_ONLY=1";
+				GCC_USE_GCC3_PFE_SUPPORT = YES;
+				INFOPLIST_FILE = "Info-ReverseOfflineUnit.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.audiounit.reverse;
+				PRODUCT_NAME = Reverse;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+			};
+			name = Deployment;
+		};
+		A9509F1C08721A5A00A30951 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		A9509F1D08721A5A00A30951 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9509F0C08721A5A00A30951 /* Build configuration list for PBXNativeTarget "ReverseOfflineUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9509F0D08721A5A00A30951 /* Development */,
+				A9509F0E08721A5A00A30951 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A9509F1B08721A5A00A30951 /* Build configuration list for PBXProject "ReverseOfflineUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9509F1C08721A5A00A30951 /* Development */,
+				A9509F1D08721A5A00A30951 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
